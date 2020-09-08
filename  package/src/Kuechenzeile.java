@@ -3,16 +3,14 @@ import java.util.List;
 public class Kuechenzeile {
     private String farbe;
     private int breite, hoehe;
-    private Geschirrspueler spueMa;
-    private Herd einHerd;
+
     private List<Moebel> meineMoebel;
 
-    public Kuechenzeile(String farbe, int breite, int hoehe, Geschirrspueler spueMa, Herd einHerd, List<Moebel> meineMoebel) {
+    public Kuechenzeile(String farbe, int breite, int hoehe, List<Moebel> meineMoebel) {
         this.farbe = farbe;
         this.breite = breite;
         this.hoehe = hoehe;
-        this.spueMa = spueMa;
-        this.einHerd = einHerd;
+
         this.meineMoebel = meineMoebel;
     }
 
@@ -29,8 +27,7 @@ public class Kuechenzeile {
                 "farbe='" + farbe + '\'' +
                 ", breite=" + breite +
                 ", hoehe=" + hoehe +
-                ", spueMa=" + spueMa +
-                ", einHerd=" + einHerd +
+
                 ", meineMoebel=" + meineMoebel +
                 '}';
     }
