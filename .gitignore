@@ -1,5 +1,9 @@
 # Compiled class file
 *.class
+##added by me
+/bin/
+
+
 
 # Log file
 *.log
